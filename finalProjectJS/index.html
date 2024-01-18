@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src = "js/script.js"></script>
+</head>
+<body onload="setImages()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Aereal view of Bogotá" src = "images/Bogota.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+	
+	<img class = "preview" alt = "London at sunset" src = "images/London.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+	
+	<img class = "preview" src = "images/Dubai.jpg" alt = "Dubai at night" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+
+    <img class = "preview" src = "images/Frankfurt.jpg" alt = "Aerial view of Frankfurt at night" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+
+    <img class = "preview" src = "images/KualaLumpur.jpg" alt = "Kuala Lumpur at sunset" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+
+    <img class = "preview" src = "images/Toronto.jpg" alt = "Toronto at night" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus= "upDate(this)" onblur = "unDo()">
+
+</body>
+</html>
